@@ -1,0 +1,6 @@
+{
+  "name": "MOISSION Creative Studio",
+  "description": "Precision operating system for creative studios: run client projects across 12 sections and 8 phased gates with unified governance, team specialties, and client delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

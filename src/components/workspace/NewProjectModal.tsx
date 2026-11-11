@@ -113,7 +113,7 @@ export const NewProjectModal: React.FC<NewProjectModalProps> = ({
   const [approvalOwner, setApprovalOwner] = useState('Mohamed Salah');
   const [budget, setBudget] = useState('£65,000');
   const [description, setDescription] = useState('');
-  const [coverImage, setCoverImage] = useState('/src/assets/images/moission_brand_identity_1794329379570.jpg');
+  const [coverImage, setCoverImage] = useState('/images/moission_brand_identity_1794329379570.jpg');
 
   // Intake Form State
   const [isParsing, setIsParsing] = useState(false);
@@ -138,22 +138,22 @@ export const NewProjectModal: React.FC<NewProjectModalProps> = ({
   ];
 
   const studioImages = [
-    { label: 'Brand & Identity Specimen', src: '/src/assets/images/moission_brand_identity_1794329379570.jpg' },
-    { label: 'Spatial & Environmental Signage', src: '/src/assets/images/moission_spatial_design_1794329379123.jpg' },
-    { label: 'Digital System & Minimal UI', src: '/src/assets/images/moission_digital_product_1794329379218.jpg' },
-    { label: 'Tactile Packaging & Craft', src: '/src/assets/images/moission_packaging_craft_1794329379949.jpg' },
+    { label: 'Brand & Identity Specimen', src: '/images/moission_brand_identity_1794329379570.jpg' },
+    { label: 'Spatial & Environmental Signage', src: '/images/moission_spatial_design_1794329379123.jpg' },
+    { label: 'Digital System & Minimal UI', src: '/images/moission_digital_product_1794329379218.jpg' },
+    { label: 'Tactile Packaging & Craft', src: '/images/moission_packaging_craft_1794329379949.jpg' },
   ];
 
   // Helper to choose cover image based on field of practice
   const getAutoCoverImage = (field: string) => {
     if (field.includes('Packaging')) {
-      return '/src/assets/images/moission_packaging_craft_1794329379949.jpg';
+      return '/images/moission_packaging_craft_1794329379949.jpg';
     } else if (field.includes('Environmental') || field.includes('Spatial') || field.includes('Signage')) {
-      return '/src/assets/images/moission_spatial_design_1794329379123.jpg';
+      return '/images/moission_spatial_design_1794329379123.jpg';
     } else if (field.includes('UI/UX') || field.includes('Product') || field.includes('Web')) {
-      return '/src/assets/images/moission_digital_product_1794329379218.jpg';
+      return '/images/moission_digital_product_1794329379218.jpg';
     }
-    return '/src/assets/images/moission_brand_identity_1794329379570.jpg';
+    return '/images/moission_brand_identity_1794329379570.jpg';
   };
 
   // Process text or base64 through the backend intake endpoint

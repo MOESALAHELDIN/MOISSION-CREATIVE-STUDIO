@@ -134,7 +134,7 @@ export const StudioHome: React.FC<StudioHomeProps> = ({
         <div className="relative rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 bg-neutral-900 shadow-md">
           <div className="relative aspect-[21/9] sm:aspect-[24/9] w-full min-h-[240px] sm:min-h-[300px]">
             <img
-              src="/src/assets/images/moission_studio_hero_1794330855862.jpg"
+              src="/images/moission_studio_hero_1794330855862.jpg"
               alt="MOISSION London Creative Studio Workspace"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-center"

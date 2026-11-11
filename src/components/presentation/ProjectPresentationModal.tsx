@@ -623,7 +623,7 @@ Verified by MOISSION Studio Architecture`;
                   <div>
                     <div className="aspect-[16/10] rounded-xl overflow-hidden bg-neutral-950 border border-neutral-800 mb-3">
                       <img
-                        src="/src/assets/images/moission_digital_product_1794329379218.jpg"
+                        src="/images/moission_digital_product_1794329379218.jpg"
                         alt="Digital UI/UX System"
                         className="w-full h-full object-cover"
                       />
@@ -646,7 +646,7 @@ Verified by MOISSION Studio Architecture`;
                   <div>
                     <div className="aspect-[16/10] rounded-xl overflow-hidden bg-neutral-950 border border-neutral-800 mb-3">
                       <img
-                        src="/src/assets/images/moission_packaging_craft_1794329379949.jpg"
+                        src="/images/moission_packaging_craft_1794329379949.jpg"
                         alt="Packaging Craft & Vessels"
                         className="w-full h-full object-cover"
                       />
@@ -669,7 +669,7 @@ Verified by MOISSION Studio Architecture`;
                   <div>
                     <div className="aspect-[16/10] rounded-xl overflow-hidden bg-neutral-950 border border-neutral-800 mb-3">
                       <img
-                        src="/src/assets/images/moission_spatial_design_1794329379123.jpg"
+                        src="/images/moission_spatial_design_1794329379123.jpg"
                         alt="Spatial & Environmental Signage"
                         className="w-full h-full object-cover"
                       />

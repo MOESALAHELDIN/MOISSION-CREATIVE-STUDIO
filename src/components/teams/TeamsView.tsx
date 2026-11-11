@@ -167,7 +167,7 @@ export const TeamsView: React.FC<TeamsViewProps> = ({
       <section className="relative rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 bg-neutral-900 shadow-md">
         <div className="relative aspect-[21/8] sm:aspect-[24/7] w-full min-h-[200px] sm:min-h-[230px]">
           <img
-            src="/src/assets/images/moission_studio_hero_1794330855862.jpg"
+            src="/images/moission_studio_hero_1794330855862.jpg"
             alt="MOISSION Studio Team and Critique Room"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center"

@@ -85,7 +85,7 @@ export const ClientsView: React.FC<ClientsViewProps> = ({
       <section className="relative rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 bg-neutral-900 shadow-md">
         <div className="relative aspect-[21/8] sm:aspect-[24/7] w-full min-h-[200px] sm:min-h-[230px]">
           <img
-            src="/src/assets/images/moission_brand_identity_1794329379570.jpg"
+            src="/images/moission_brand_identity_1794329379570.jpg"
             alt="MOISSION Client Partnerships and Delivery Governance"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center"

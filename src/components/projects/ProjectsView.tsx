@@ -74,7 +74,7 @@ export const ProjectsView: React.FC<ProjectsViewProps> = ({
       <section className="relative rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 bg-neutral-900 shadow-md">
         <div className="relative aspect-[21/9] sm:aspect-[24/8] w-full min-h-[220px] sm:min-h-[260px]">
           <img
-            src="/src/assets/images/moission_projects_hero_1794330855473.jpg"
+            src="/images/moission_projects_hero_1794330855473.jpg"
             alt="MOISSION Project Archives and Material Flat Lay"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center"
